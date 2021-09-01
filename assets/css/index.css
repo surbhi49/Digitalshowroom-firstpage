@@ -1,0 +1,119 @@
+    body{ margin:0;
+          padding:0;
+          width:100vw;
+        box-sizing: border-box;}     
+        section.home{ 
+      background-image: url(../img/slide-1-bg.jpg);
+      background-position: center;
+      background-size:cover;
+      background-repeat: no-repeat;
+      height:130vh;
+      width: 100vw;
+    
+}  
+div.yellowcolor{ display: flex;
+  width: 68vw;
+  height: 100vh;
+  background-color:#FFC000;
+  position: absolute;
+  transform: rotate(35deg);
+  top: -20px;
+  left: -350px;
+  opacity: 1;
+  border-top-right-radius: 10em;
+}    
+
+div .greencolor{ display: flex;
+                  width: 70vw;
+                  height:100vh ;
+                  background-color: green;
+                  position: fixed;
+                  transform: rotate(10deg);
+                  border-radius: 100px;
+                }
+              
+        div.logo img{  display: flex;
+          width: 200px;
+          height: 70px;
+          position: absolute;
+          top: 10%;
+          left: 2%;
+       }  
+       div .nav{ display: flex;
+                  position: absolute;
+                   list-style-type: none;
+                   top:13%;
+                   left: 45%;
+                  
+                 }
+                 div.nav  li{ font-size:25px;
+                              color: white;
+                              margin: 1em;
+                              }
+                    div .btn{ display: flex;
+                               position: absolute;
+                                 top:17%;
+                                 right:5%;}
+                    div .btn button{     font-size: 20px;
+                      background-color:#FFC000;
+                      border-radius: 50px;
+                      width: 200px; 
+                      height:45px;
+                      border: none;
+                    
+                    
+                    }
+                    div.whatsapp-logo img{ 
+                      display: flex;
+                      position: absolute;
+                      top: 39%;
+                      left: 32%;
+                      width:50px;
+                      height: 50px;
+
+                  }
+                    div.heading{ display: flex;
+                                  position: absolute;
+                                   top:32%;
+                                  left:5%;
+                      }        
+                      h2{ font-size: 30px;
+                            color: white;
+                            font-family:sans-serif;}
+                           
+                   p{ position:absolute;
+                           font-size:12px;
+                            color: white;
+                             margin-top:130px;
+                             font-family: sans-serif;
+                             }
+                        span{  background-color:#FFC000;
+                               border-radius:5px;
+                              color: #000; 
+                              font-size: 15px;
+                             }
+                      div.search{ display: flex;
+                                position: absolute;
+                                  top:77%;
+                                left:4%;}
+                            div.search input{ background-color: white;
+                                              width:200px;
+                                               height:40px;
+                                                color:whitesmoke;
+                                                font-weight: bold;
+                                                  border-radius:35px;
+                                                border: transparent;
+                                                padding:20px;}
+                 
+                            div.search button{ background-color: black;
+                                                border-radius:35px;
+                                                width:120px;
+                                                color: white;
+                                                  font-weight: bolder;
+                                                  font-family: sans-serif;
+                                                border: none;}
+
+                                           button{ margin-left: 20px;}
+        
+            
+              

@@ -1,0 +1,118 @@
+body{ margin:0;
+      padding:0;
+      background-color: white;}
+div.page3{ display: flex;
+             width: 100%;}
+div.logo{  display: flex;
+            position: absolute;
+              top:10%;
+              left: 10%;}
+    
+
+    div.svg1{width: 250px;
+             position: fixed;
+            top:25%;
+             left:12%;}
+        
+    div.svg2{width: 200px;
+        position: fixed;
+       bottom:4%;
+        left:17%;}
+  div.svg3{ width: 200px;
+            position: fixed;
+            bottom:25%;
+           left:35%;}
+div.svg4{ width:150px;
+            position: fixed;
+           top:15%;
+           left:35%;}
+        div.img1{ display: flex;
+                 position: absolute;
+                  top:25%;
+                left:12%;}
+    div.whatsapp{ display: flex;
+                  position: absolute;
+                  top:25%;
+                 left: 27%;}
+    div.img2{ display: flex;
+            position: absolute;
+            bottom:4%;
+            left:17%;}
+div.img3{ display: flex;
+          position: absolute;
+         bottom: 25%;
+        left:35%;}
+div.img4{ display: flex;
+          position: absolute;
+         top:15%;
+          left:35%;}
+          div.search{ display: flex;
+            position: absolute;
+        right: 15%;
+        top: 8%;
+        
+            }
+    div.search input{ width:300px;
+                       height:40px;
+                       background-color:whitesmoke;
+                      border: none;
+                    border-radius:30px;
+                  margin-left:10px;
+              color: gray;
+              font-weight: bold;
+              border:transparent;
+              padding: 15px;
+              outline-style: none;
+
+            }
+div.btn button{ background-color:#FFC000;
+                  width:100px;
+                  height: 40px;
+                  position:absolute;
+                  top:8%;
+                  right:0.1%;
+                  border: transparent;
+                  border-radius:30px;
+                    
+                  
+                    }
+div.head{ display: flex;
+          position: absolute;
+         font-size:30px;
+          font-family: sans-serif;
+       font-weight:bold;
+       top:25%;
+      right:15%;}
+
+div.paragraph{ display: flex;
+               position: absolute;
+            bottom:23%;
+               right:10%;
+                font-family:sans-serif;
+              font-weight: bolder;
+            opacity:0.5;
+      font-size:19px;}
+div.goldsvg{ display: flex;
+          position: absolute;
+          top:30%;
+          right:15%;
+          animation: round 2s infinite;
+
+        }
+      @keyframes round{ from{ transform: rotate(360deg)}}
+div.black{ display: flex;
+      position: absolute;
+      bottom:10%;
+      right:5%;
+      animation: all 2s infinite;
+     }
+@keyframes all{ from{ width:15px;}}
+div.greensvg{ display: flex;
+            position: absolute;
+            width:50px;
+            top:3%;
+            left:50%;
+            animation: gre  10s infinite;
+          }
+  @keyframes gre{ from{ transform: rotate(360deg)}}
+ 

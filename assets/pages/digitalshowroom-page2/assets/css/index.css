@@ -1,0 +1,124 @@
+body{ margin:0;
+       padding:0;
+     background-color:white;
+    display: flex;
+    }
+div.yellowcolor{ 
+  display: flex;
+  width: 50vw;
+  height: 84vh;
+  background-color:#FFC000;
+  position: absolute;
+  transform: rotate(44deg);
+  top: -63px;
+  left: -40px;
+  opacity: 1;
+  border-top-right-radius: 10em;
+}
+
+.page2 div.greencolor{ display: flex;
+  width: 50vw;
+  height: 140vh;
+  background-color:#006400;
+  position: absolute;
+  transform: rotate(-60deg);
+  border-radius: 10em;
+
+  
+}
+div.svg1{position: absolute;
+  left: 15%;
+  top: 25%;
+  filter: brightness(0.9) contrast(0.5)  opacity(0.2);
+      }
+      
+      
+            
+  div.logo{ position:relative;
+              top:35%;
+            left: 40%;
+            transform: rotate(-44deg);
+            
+
+             }
+div.logo img{ width:250px;
+              height:90px;
+             ;}   
+        div.head{ display: flex;
+                    position: absolute;
+                    top:40%;
+                    left:5%;
+                    font-size: 40px;
+                    font-family: sans-serif;
+                    font-weight: bold;
+                    color: white;
+                  
+                   }  
+                   div.paragraph{ display: flex;
+                                    position: absolute;
+                                  top:60%;
+                                   left:5%;
+                                  color: white;
+                                font-family: sans-serif;
+                                margin-top:10px;
+                                 }
+                            div.svg2{ display: flex;
+                                        position: absolute;
+                                        filter: opacity(0.8);
+                                      right: -20%;
+                                    top:5%}
+                                div.svg3{ display: flex;
+                                           position: absolute;
+                                          filter: opacity(0.9);
+                                        right:10%;
+                                       top:50%;}
+              div.search{ display: flex;
+                          position: absolute;
+                      right: 15%;
+                      top: 5%;
+                      
+                          }
+                  div.search input{ width:300px;
+                                     height:40px;
+                                     background-color:whitesmoke;
+                                    border: none;
+                                  border-radius:30px;
+                                margin-left:10px;
+                            color: gray;
+                            font-weight: bold;
+                            border:transparent;
+                            padding: 15px;
+                            outline-style: none;
+
+                          }
+             div.btn button{ background-color:#FFC000;
+                                width:100px;
+                                height: 40px;
+                                position:absolute;
+                                right:0.1%;
+                                border: transparent;
+                                border-radius:30px;
+                                  
+                                
+                                  }
+                div.mobile-img{ display: flex;
+                                  position: absolute;
+                                right:15%;
+                                 top: 15%;}
+        svg{ position: absolute;
+                 top:80%;
+                left:30%;
+              animation: svg 3s infinite;}
+              @keyframes svg{ from{ width: 10px;}}
+            svg:hover{ width: 10px;}
+            div.second{  position: absolute;
+              top:30%;
+            right:10%;
+          animation: round 2s infinite;}
+            
+             @keyframes round{ from{transform: rotate(360deg)}
+                                }
+               div.black{ position: absolute;
+                            top:30%;
+                            left:40%;}
+    
